@@ -9,3 +9,4 @@ that corresponds with the type of license the user has chosen, and links to the 
 
 
 ## Link to Video
+https://watch.screencastify.com/v/lKsX9d0dCgH7y3lrqFQy
