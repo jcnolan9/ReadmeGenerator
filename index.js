@@ -88,11 +88,11 @@ function markdown(filler){
     ${filler.description}
     
 ## Table of Contents 
-    - [Installation](#installation)
-    - [Usage Instructions](#usage-instructions) 
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)    
+- [Installation](#installation)
+- [Usage Instructions](#usage-instructions) 
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)    
    
     
 ## Installation 
@@ -112,8 +112,8 @@ function markdown(filler){
     ${filler.tests}
     
 ## Questions
-    - [${filler.github}](https://github.com/${filler.github})
-    - ${filler.email}`
+- [${filler.github}](https://github.com/${filler.github})
+- ${filler.email}`
 }
 
 // TODO: Create a function to initialize app
