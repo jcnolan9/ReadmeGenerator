@@ -119,7 +119,7 @@ function markdown(filler){
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
-        writeToFile("README.md", answers) 
+        writeToFile("test-README.md", answers) 
     })
 }
 
