@@ -59,25 +59,28 @@ function writeToFile(fileName, data) {
 }
 
 function markdown(filler){
-    let badgeLink, licenceLink
-    switch(filler.license) {
+    let badgeLink, licenseLink
+    switch(filler.license[0]) {
         case "Apache 2.0":
             badgeLink = "https://img.shields.io/badge/License-Apache_2.0-blue.svg"
-            licenceLink = "https://opensource.org/licenses/Apache-2.0"
+            licenseLink = "https://opensource.org/licenses/Apache-2.0"
             break
         case "Creative Commons (CC0)":
             badgeLink = "https://licensebuttons.net/l/zero/1.0/80x15.png"
-            licenceLink = "http://creativecommons.org/publicdomain/zero/1.0/"
+            licenseLink = "http://creativecommons.org/publicdomain/zero/1.0/"
             break
         case "MIT":
             badgeLink = "https://img.shields.io/badge/License-MIT-yellow.svg"
-            licenceLink = "https://opensource.org/licenses/MIT"
+            licenseLink = "https://opensource.org/licenses/MIT"
             break
         case "Open Data Commons (BY)":
             badgeLink = "https://img.shields.io/badge/License-ODC_BY-brightgreen.svg"
-            licenceLink = "https://opendatacommons.org/licenses/by/"
+            licenseLink = "https://opendatacommons.org/licenses/by/"
             break
     }
+    console.log("license", filler.license)
+    console.log("license",badgeLink)
+    console.log("license", licenseLink)
 
     return `# ${filler.title} ![](${badgeLink})
 
@@ -100,7 +103,7 @@ function markdown(filler){
     ${filler.usage}
     
     ## Licence 
-    This project is covered under the ${filler.license}. More information about this license can be found at ${licenceLink}
+    This project is covered under the ${filler.license}. More information about this license can be found at ${licenseLink}
     
     ## Contributing 
     ${filler.contribute}
