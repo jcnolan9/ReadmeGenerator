@@ -80,14 +80,14 @@ function markdown(filler){
     }
 
 
-    
+
 
     return `# ${filler.title} ![](${badgeLink})
 
-    ## Description 
+## Description 
     ${filler.description}
     
-    ## Table of Contents 
+## Table of Contents 
     - [Installation](#installation)
     - [Usage Instructions](#usage-instructions) 
     - [Contributing](#contributing)
@@ -95,23 +95,23 @@ function markdown(filler){
     - [Questions](#questions)    
    
     
-    ## Installation 
+## Installation 
     ${filler.install}
     
 
-    ## Usage Instructions
+## Usage Instructions
     ${filler.usage}
     
-    ## Licence 
+## Licence 
     This project is covered under the ${filler.license}. More information about this license can be found at ${licenseLink}
     
-    ## Contributing 
+## Contributing 
     ${filler.contribute}
     
-    ## Tests
+## Tests
     ${filler.tests}
     
-    ## Questions
+## Questions
     - [${filler.github}](https://github.com/${filler.github})
     - ${filler.email}`
 }

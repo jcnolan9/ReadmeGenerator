@@ -1,9 +1,9 @@
-# ReadME Generator ![](https://img.shields.io/badge/License-MIT-yellow.svg)
+# My awesome project ![](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-    ## Description 
-    This project automatically builds a README.md file for you
+## Description 
+    It's a readme generator
     
-    ## Table of Contents 
+## Table of Contents 
     - [Installation](#installation)
     - [Usage Instructions](#usage-instructions) 
     - [Contributing](#contributing)
@@ -11,22 +11,22 @@
     - [Questions](#questions)    
    
     
-    ## Installation 
+## Installation 
     You'll need node and npm
     
 
-    ## Usage Instructions
-    Fill in the responses to the questions to fill the content for your readme
+## Usage Instructions
+    input the content you want to fill in the readme when the questions are asked
     
-    ## Licence 
+## Licence 
     This project is covered under the MIT. More information about this license can be found at https://opensource.org/licenses/MIT
     
-    ## Contributing 
+## Contributing 
     Make a pull request
     
-    ## Tests
+## Tests
     No tests yet
     
-    ## Questions
-    - [jcnolan9](https://github.com/jcnolan9)
+## Questions
+    - [githubUser123](https://github.com/githubUser123)
     - email@email.com
