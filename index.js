@@ -78,9 +78,6 @@ function markdown(filler){
             licenseLink = "https://opendatacommons.org/licenses/by/"
             break
     }
-    console.log("license", filler.license)
-    console.log("license",badgeLink)
-    console.log("license", licenseLink)
 
     return `# ${filler.title} ![](${badgeLink})
 
